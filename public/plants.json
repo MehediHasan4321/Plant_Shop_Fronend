@@ -1,0 +1,39 @@
+[
+    {
+        "_id":"001",
+        "name":"Devil’s Ivy",
+        "description":"",
+        "price":"120",
+        "isHot":true,
+        "image":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/05/9-600x713.jpg",
+        "hoverImage":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/05/7-600x713.jpg"
+    },
+    {
+        "_id":"002",
+        "name":"Devil’s Ivy",
+        "description":"",
+        "price":"120",
+        "isHot":true,
+        "image":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/10/16-7-600x713.jpg",
+        "hoverImage":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/10/16-8-600x713.jpg"
+    },
+    {
+        "_id":"003",
+        "name":"Devil’s Ivy",
+        "description":"",
+        "price":"120",
+        "isHot":true,
+        "image":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2019/04/1-600x713.jpg",
+        "hoverImage":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2019/04/2-600x713.jpg"
+    },
+    {
+        "_id":"004",
+        "name":"Devil’s Ivy",
+        "description":"",
+        "price":"120",
+        "isHot":true,
+        "image":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-2-600x713.jpg",
+        "hoverImage":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-3-600x713.jpg"
+    }
+
+]
