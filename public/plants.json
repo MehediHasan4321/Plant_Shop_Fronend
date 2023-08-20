@@ -13,7 +13,22 @@
         "stock":"5",
         "image":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/05/9-600x713.jpg",
         "hoverImage":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/05/7-600x713.jpg",
-        "secondary_Image":["https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-2-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-3-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-4-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-5-600x713.jpg"]
+        "secondary_Image":["https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-2-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-3-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-4-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-5-600x713.jpg"],
+        "reviews":[
+            {
+                "name":"Mh Hasan",
+                "avater":"https://t3.ftcdn.net/jpg/02/36/48/86/360_F_236488644_opXVvD367vGJTM2I7xTlsHB58DVbmtxR.jpg",
+                "review":"Wow!, This is awsome",
+                "rating":3
+            },
+            {
+                "name":"SK Akash",
+                "avater":"https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg",
+                "review":"This Product is really awsome",
+                "rating":5
+            }
+
+        ]
     },
     {
         "_id":"002",

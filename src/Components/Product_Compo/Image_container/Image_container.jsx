@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 const Image_container = ({ images=[],mainImg }) => {
     const [mainImage, setMainImage] = useState(mainImg)
-    console.log(mainImage)
+
     return (
         <div className='flex'>
             <div className='space-y-5 mr-5'>
