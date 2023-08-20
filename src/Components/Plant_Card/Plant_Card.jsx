@@ -7,7 +7,7 @@ const Plant_Card = ({ cardInfo }) => {
     const [isHover, setisHover] = useState(false)
 
     return (
-        <div onMouseOver={() => setisHover(true)} onMouseOut={() => setisHover(false)} className='w-[350px] h-[350px] relative cursor-pointer my-10'>
+        <div onMouseOver={() => setisHover(true)} onMouseOut={() => setisHover(false)} className='w-[330px] h-[400px] relative cursor-pointer my-10'>
             <img className='w-full h-full' src={isHover ? hoverImage : image} alt={name} />
             <div className=' absolute top-2 right-2'>
                 {isHot && <span className='bg-red-400 px-2 text-white font-semibold'>Hot</span>}
