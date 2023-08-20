@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
-
-const Image_container = ({ images=[],mainImg }) => {
+import ReactImageMagnify from 'react-image-magnify'
+const Image_container = ({ images = [], mainImg }) => {
     const [mainImage, setMainImage] = useState(mainImg)
 
     return (
@@ -11,7 +11,19 @@ const Image_container = ({ images=[],mainImg }) => {
                     images.map((img, index) => <img onClick={() => setMainImage(img)} className={mainImage === img ? 'w-32 border border-black' : 'w-32 hover:border border-black'} key={index} src={img} />)
                 }
             </div>
-            <img className='w-full' src={ mainImage? mainImage : mainImg} alt="Plant Image" />
+            {/* <img className='w-full' src={ mainImage? mainImage : mainImg} alt="Plant Image" /> */}
+            <ReactImageMagnify {...{
+                smallImage: {
+                    alt: 'plant Image',
+                    isFluidWidth: true,
+                    src:`${mainImage?mainImage:mainImg}`
+                },
+                largeImage: {
+                    src:`${mainImage?mainImage:mainImg}`,
+                    width: 1200,
+                    height: 1800
+                }
+            }} />
         </div>
     );
 };

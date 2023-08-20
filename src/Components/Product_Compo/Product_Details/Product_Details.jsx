@@ -35,7 +35,7 @@ const Product_Details = ({ product_details }) => {
                 <p className='text-sm text-gray-600'>( {reviews?.length} Customer Review )</p>
                 </div>
                 <h4 className='text-2xl font-serif'>{name}</h4>
-                <h3 className='text-3xl font-serif'>${price}</h3>
+                <h3 className='text-3xl font-serif'>${parseFloat(price).toFixed(2)}</h3>
                 <hr />
                 <p className='text-md text-gray-500'>{description?.slice(0, 350)}</p>
                 <h4 className='text-md text-gray-500'>In Stock {stock}</h4>

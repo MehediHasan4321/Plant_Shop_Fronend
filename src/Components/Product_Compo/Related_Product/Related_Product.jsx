@@ -8,7 +8,7 @@ const Related_Product = () => {
         fetch('plants.json').then(res => res.json()).then(data => setProducts(data))
     }, [])
     return (
-        <div className="container mx-auto">
+        <div className="container mx-auto my-20">
             <h1 className="text-4xl font-serif text-center">Related Plants</h1>
         
             <div className='flex justify-between flex-wrap gap-10'>
