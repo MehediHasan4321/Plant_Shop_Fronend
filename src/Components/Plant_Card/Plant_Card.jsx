@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { BiShoppingBag, BiSearch } from 'react-icons/bi'
 import { GrFavorite } from 'react-icons/gr'
-
+import {Link} from 'react-router-dom'
 const Plant_Card = ({ cardInfo }) => {
     const { name, image, hoverImage, price, isHot } = cardInfo || {}
     const [isHover, setisHover] = useState(false)
 
     return (
-        <div onMouseOver={() => setisHover(true)} onMouseOut={() => setisHover(false)} className='w-[330px] h-[400px] relative cursor-pointer my-10'>
+        <Link to={'/product'} onMouseOver={() => setisHover(true)} onMouseOut={() => setisHover(false)} className='w-[330px] h-[400px] relative cursor-pointer my-10'>
             <img className='w-full h-full' src={isHover ? hoverImage : image} alt={name} />
             <div className=' absolute top-2 right-2'>
                 {isHot && <span className='bg-red-400 px-2 text-white font-semibold'>Hot</span>}
@@ -28,7 +28,7 @@ const Plant_Card = ({ cardInfo }) => {
                 <p>${price}</p>
             </div>
             
-        </div>
+        </Link>
     )
 }
 

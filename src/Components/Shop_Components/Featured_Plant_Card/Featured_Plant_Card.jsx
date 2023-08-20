@@ -8,7 +8,7 @@ const Featured_Plant_Card = ({ plant }) => {
             <div className='w-full flex gap-5 my-3 cursor-pointer'>
                 <img className='w-20 h-24' src={image} alt="" />
                 <div className='space-y-1'>
-                    <Rating/>
+                    <Rating rating={rating}/>
                     <h3 className='text-md font-serif text-gray-600'>{name}</h3>
                     <p>${price}</p>
                 </div>

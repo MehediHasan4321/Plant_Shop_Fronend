@@ -2,11 +2,18 @@
     {
         "_id":"001",
         "name":"Devil’s Ivy",
-        "description":"",
+        "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
         "price":"120",
         "isHot":true,
+        "discound":"12",
+        "couponCode":"mh10",
+        "rating":"3",
+        "category":"Ceramic Pots",
+        "tags":["Life Style","Indoor","Tranding"],
+        "stock":"5",
         "image":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/05/9-600x713.jpg",
-        "hoverImage":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/05/7-600x713.jpg"
+        "hoverImage":"https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2018/05/7-600x713.jpg",
+        "secondary_Image":["https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-2-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-3-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-4-600x713.jpg","https://wpbingosite.com/wordpress/flacio/wp-content/uploads/2020/04/13-5-600x713.jpg"]
     },
     {
         "_id":"002",
