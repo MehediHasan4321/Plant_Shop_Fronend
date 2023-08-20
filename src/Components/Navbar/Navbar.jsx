@@ -8,7 +8,7 @@ const Navbar = () => {
                 <h1 className='text-5xl font-semibold'>Greenery</h1>
                 <div className='flex gap-7 items-center font-semibold'>
                     <Link to={'/'}>Home</Link>
-                    <Link>Shop</Link>
+                    <Link to={'/shop'}>Shop</Link>
                     <Link>Blog</Link>
                 </div>
                 <div className='flex gap-7 items-center'>
