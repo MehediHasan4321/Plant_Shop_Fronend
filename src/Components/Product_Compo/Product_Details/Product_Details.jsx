@@ -39,7 +39,7 @@ const Product_Details = ({ product_details }) => {
                 <hr />
                 <p className='text-md text-gray-500'>{description?.slice(0, 350)}</p>
                 <h4 className='text-md text-gray-500'>In Stock {stock}</h4>
-                <Product_Action />
+                <Product_Action product={product_details} />
                 <h4 className='text-md text-gray-500'>Category : {category}</h4>
                 <h4 className='text-md text-gray-500'>Tags : {tags?.map((tag, index) => <span className='mx-2' key={index}>{tag}</span>)}</h4>
                 <h4 className="text-md text-gray-400 flex gap-5 items-center">Share : {social_Network.map(net=><span className=' cursor-pointer' key={net._id} title={net.name}>{net.icon}</span>)} </h4>

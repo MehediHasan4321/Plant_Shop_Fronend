@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FaRegHeart } from 'react-icons/fa'
 
-const Product_Action = () => {
+const Product_Action = ({product}) => {
     const [quantity, setQuantity] = useState(1)
     return (
         <div className='py-10 w-full'>
